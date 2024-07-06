@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="cbx_sis_productivo" min="-2" pref="173" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt_año" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lb_icon_form" min="-2" pref="60" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" min="-2" pref="271" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" pref="234" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="cbx_grupo_cul" alignment="0" max="32767" attributes="0"/>
+                  <Component id="cbx_subgrupo_cul" alignment="0" max="32767" attributes="0"/>
+                  <Component id="cbx_cultivo" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txt_produccion" pref="159" max="32767" attributes="0"/>
+                          <Component id="txt_area_sem" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txt_area_coc" max="32767" attributes="0"/>
+                          <Component id="txt_rendimiento" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="cbx_estado_fisico" alignment="0" max="32767" attributes="0"/>
+                  <Component id="cbx_cientifico" alignment="0" max="32767" attributes="0"/>
+                  <Component id="cbx_ciclo" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btn_send" alignment="0" max="32767" attributes="0"/>
+                  <Component id="txt_periodo" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txt_cod_mun" max="32767" attributes="0"/>
+                          <Component id="txt_cod_dep" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="cbx_mun" max="32767" attributes="0"/>
+                          <Component id="cbx_dep" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="188" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="lb_icon_form" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cbx_dep" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="txt_cod_dep" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cbx_mun" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="txt_cod_mun" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="cbx_grupo_cul" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="cbx_subgrupo_cul" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="cbx_cultivo" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cbx_sis_productivo" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="txt_año" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="txt_periodo" min="-2" pref="41" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txt_area_sem" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="txt_area_coc" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txt_produccion" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="txt_rendimiento" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="cbx_estado_fisico" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="cbx_cientifico" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="cbx_ciclo" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btn_send" min="-2" pref="43" max="-2" attributes="0"/>
+              <EmptySpace pref="93" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Roboto" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Formulario de insercci&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Evaluci&#xf3;nes agropecuarias municipales."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lb_icon_form">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_a&#xf1;o">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="A&#xf1;o">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_dep">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="32">
+            <StringItem index="0" value="BOYACA"/>
+            <StringItem index="1" value="CUNDINAMARCA"/>
+            <StringItem index="2" value="NORTE DE SANTANDER"/>
+            <StringItem index="3" value="CAUCA"/>
+            <StringItem index="4" value="VALLE DEL CAUCA"/>
+            <StringItem index="5" value="SANTANDER"/>
+            <StringItem index="6" value="CALDAS"/>
+            <StringItem index="7" value="NARI&#xd1;O"/>
+            <StringItem index="8" value="PUTUMAYO"/>
+            <StringItem index="9" value="QUINDIO"/>
+            <StringItem index="10" value="ANTIOQUIA"/>
+            <StringItem index="11" value="CAQUETA"/>
+            <StringItem index="12" value="AMAZONAS"/>
+            <StringItem index="13" value="CHOCO"/>
+            <StringItem index="14" value="ARAUCA"/>
+            <StringItem index="15" value="LA GUAJIRA"/>
+            <StringItem index="16" value="HUILA"/>
+            <StringItem index="17" value="BOLIVAR"/>
+            <StringItem index="18" value="CASANARE"/>
+            <StringItem index="19" value="CESAR"/>
+            <StringItem index="20" value="RISARALDA"/>
+            <StringItem index="21" value="SUCRE"/>
+            <StringItem index="22" value="TOLIMA"/>
+            <StringItem index="23" value="META"/>
+            <StringItem index="24" value="CORDOBA"/>
+            <StringItem index="25" value="VICHADA"/>
+            <StringItem index="26" value="MAGDALENA"/>
+            <StringItem index="27" value="GUAINIA"/>
+            <StringItem index="28" value="SAN ANDRES Y PROVIDENCIA"/>
+            <StringItem index="29" value="ATLANTICO"/>
+            <StringItem index="30" value="VAUPES"/>
+            <StringItem index="31" value="GUAVIARE"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="-1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Departamento">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_cod_dep">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Cod. Departamento">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_mun">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="BUSBANZA"/>
+            <StringItem index="1" value="COTA"/>
+            <StringItem index="2" value="PAMPLONA"/>
+            <StringItem index="3" value="CACAHUAL"/>
+            <StringItem index="4" value="SAN FELIPE"/>
+            <StringItem index="5" value="MORICHAL"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="-1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Municipio">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_grupo_cul">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="13">
+            <StringItem index="0" value="HORTALIZAS"/>
+            <StringItem index="1" value="PLANTAS AROMATICAS, CONDIMENTARIAS Y MEDICINALES"/>
+            <StringItem index="2" value="TUBERCULOS Y PLATANOS"/>
+            <StringItem index="3" value="FRUTALES"/>
+            <StringItem index="4" value="OLEAGINOSAS"/>
+            <StringItem index="5" value="LEGUMINOSAS"/>
+            <StringItem index="6" value="FIBRAS"/>
+            <StringItem index="7" value="FLORES Y FOLLAJES"/>
+            <StringItem index="8" value="CEREALES"/>
+            <StringItem index="9" value="OTROS PERMANENTES"/>
+            <StringItem index="10" value="FORESTALES"/>
+            <StringItem index="11" value="HONGOS"/>
+            <StringItem index="12" value="OTROS TRANSITORIOS"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="-1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Grupo de cultivo">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_cultivo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="209">
+            <StringItem index="0" value="ACELGA"/>
+            <StringItem index="1" value="ACHICORIA"/>
+            <StringItem index="2" value="MALANGA"/>
+            <StringItem index="3" value="ACHIOTE"/>
+            <StringItem index="4" value="ACHIRA"/>
+            <StringItem index="5" value="AGRAZ"/>
+            <StringItem index="6" value="AGUACATE"/>
+            <StringItem index="7" value="AJI"/>
+            <StringItem index="8" value="AGUAJE"/>
+            <StringItem index="9" value="AHUYAMA"/>
+            <StringItem index="10" value="AJO"/>
+            <StringItem index="11" value="AJONJOLI"/>
+            <StringItem index="12" value="ALBAHACA"/>
+            <StringItem index="13" value="ALCACHOFA"/>
+            <StringItem index="14" value="ALFALFA"/>
+            <StringItem index="15" value="ALGARROBO"/>
+            <StringItem index="16" value="ALGODON"/>
+            <StringItem index="17" value="AMARANTO"/>
+            <StringItem index="18" value="ANIS"/>
+            <StringItem index="19" value="ANON"/>
+            <StringItem index="20" value="ANTURIO"/>
+            <StringItem index="21" value="APIO"/>
+            <StringItem index="22" value="ARANDANO"/>
+            <StringItem index="23" value="ARAZA"/>
+            <StringItem index="24" value="ARRACACHA"/>
+            <StringItem index="25" value="ARROZ"/>
+            <StringItem index="26" value="ARVEJA"/>
+            <StringItem index="27" value="ASAI"/>
+            <StringItem index="28" value="ESPARRAGO"/>
+            <StringItem index="29" value="ASTROMELIA"/>
+            <StringItem index="30" value="AVENA"/>
+            <StringItem index="31" value="BADEA"/>
+            <StringItem index="32" value="BANANITO"/>
+            <StringItem index="33" value="BANANO"/>
+            <StringItem index="34" value="BATATA"/>
+            <StringItem index="35" value="BERENJENA"/>
+            <StringItem index="36" value="BREVO"/>
+            <StringItem index="37" value="BOROJO"/>
+            <StringItem index="38" value="BROCOLI"/>
+            <StringItem index="39" value="CACAO"/>
+            <StringItem index="40" value="PLATANO"/>
+            <StringItem index="41" value="CAFE"/>
+            <StringItem index="42" value="CAUCHO"/>
+            <StringItem index="43" value="CAIMO"/>
+            <StringItem index="44" value="CALABACIN"/>
+            <StringItem index="45" value="CALABAZA"/>
+            <StringItem index="46" value="CALENDULA"/>
+            <StringItem index="47" value="CA&#xd1;A AZUCARERA"/>
+            <StringItem index="48" value="CA&#xd1;A FLECHA"/>
+            <StringItem index="49" value="CA&#xd1;A MIEL"/>
+            <StringItem index="50" value="CA&#xd1;A PANELERA"/>
+            <StringItem index="51" value="CARDAMOMO"/>
+            <StringItem index="52" value="CEBADA"/>
+            <StringItem index="53" value="CEBOLLA DE BULBO"/>
+            <StringItem index="54" value="CENTENO"/>
+            <StringItem index="55" value="CEBOLLA DE RAMA"/>
+            <StringItem index="56" value="CEbollin"/>
+            <StringItem index="57" value="CHACHAFRUTO"/>
+            <StringItem index="58" value="CHAMBA"/>
+            <StringItem index="59" value="CHAMPI&#xd1;ON"/>
+            <StringItem index="60" value="CHIA"/>
+            <StringItem index="61" value="CIMARRON"/>
+            <StringItem index="62" value="CHIRIMOYA"/>
+            <StringItem index="63" value="CHOLUPA"/>
+            <StringItem index="64" value="CIRUELA"/>
+            <StringItem index="65" value="CHONQUE"/>
+            <StringItem index="66" value="CHONTADURO"/>
+            <StringItem index="67" value="CITRICOS"/>
+            <StringItem index="68" value="CILANTRO"/>
+            <StringItem index="69" value="CLAVEL"/>
+            <StringItem index="70" value="COCCULUS"/>
+            <StringItem index="71" value="COCO"/>
+            <StringItem index="72" value="COCONA"/>
+            <StringItem index="73" value="COL"/>
+            <StringItem index="74" value="CURUBA"/>
+            <StringItem index="75" value="COLIFLOR"/>
+            <StringItem index="76" value="COPOAZU"/>
+            <StringItem index="77" value="CORDELINE CINTA"/>
+            <StringItem index="78" value="COROZO"/>
+            <StringItem index="79" value="CURCUMA"/>
+            <StringItem index="80" value="DATIL"/>
+            <StringItem index="81" value="DURAZNO"/>
+            <StringItem index="82" value="ENELDO"/>
+            <StringItem index="83" value="ESPARRAGO"/>
+            <StringItem index="84" value="ESPARTO"/>
+            <StringItem index="85" value="ESPINACA"/>
+            <StringItem index="86" value="ESTROPAJO"/>
+            <StringItem index="87" value="EUCALIPTO BABY BLUE"/>
+            <StringItem index="88" value="FEIJOA"/>
+            <StringItem index="89" value="FIQUE"/>
+            <StringItem index="90" value="FITOSPORUM"/>
+            <StringItem index="91" value="FLOR DE JAMAICA"/>
+            <StringItem index="92" value="FLOR DE SAFARI"/>
+            <StringItem index="93" value="FRAMBUESA"/>
+            <StringItem index="94" value="FRESA"/>
+            <StringItem index="95" value="FRIJOL"/>
+            <StringItem index="96" value="GARBANZO"/>
+            <StringItem index="97" value="GIRASOL"/>
+            <StringItem index="98" value="GLADIOLO"/>
+            <StringItem index="99" value="GRANADILLA"/>
+            <StringItem index="100" value="GUAMA"/>
+            <StringItem index="101" value="GUANABANA"/>
+            <StringItem index="102" value="GUANDUL"/>
+            <StringItem index="103" value="GUATILA"/>
+            <StringItem index="104" value="GUAYABA"/>
+            <StringItem index="105" value="GULUPA"/>
+            <StringItem index="106" value="HABA"/>
+            <StringItem index="107" value="HABICHUELA"/>
+            <StringItem index="108" value="IRACA"/>
+            <StringItem index="109" value="HELECHO"/>
+            <StringItem index="110" value="HELICONIA"/>
+            <StringItem index="111" value="HIERBABUENA"/>
+            <StringItem index="112" value="HIGO"/>
+            <StringItem index="113" value="HIGUERILLA"/>
+            <StringItem index="114" value="HORTENSIA"/>
+            <StringItem index="115" value="JATROPHA"/>
+            <StringItem index="116" value="JENGIBRE"/>
+            <StringItem index="117" value="LECHUGA"/>
+            <StringItem index="118" value="LENTEJA"/>
+            <StringItem index="119" value="LIMA"/>
+            <StringItem index="120" value="LIMON"/>
+            <StringItem index="121" value="LIMONARIA"/>
+            <StringItem index="122" value="LIMONIUM"/>
+            <StringItem index="123" value="LULO"/>
+            <StringItem index="124" value="MACADAMIA"/>
+            <StringItem index="125" value="MAIZ FORRAJERO"/>
+            <StringItem index="126" value="MAIZ"/>
+            <StringItem index="127" value="MANDARINA"/>
+            <StringItem index="128" value="MAMEY"/>
+            <StringItem index="129" value="MAMONCILLO"/>
+            <StringItem index="130" value="MANGO"/>
+            <StringItem index="131" value="MANGOSTINO"/>
+            <StringItem index="132" value="MANI"/>
+            <StringItem index="133" value="MANZANA"/>
+            <StringItem index="134" value="MANZANILLA"/>
+            <StringItem index="135" value="MARACUYA"/>
+            <StringItem index="136" value="MARA&#xd1;ON"/>
+            <StringItem index="137" value="MELON"/>
+            <StringItem index="138" value="MENTA"/>
+            <StringItem index="139" value="SORGO"/>
+            <StringItem index="140" value="MIMBRE"/>
+            <StringItem index="141" value="MORA"/>
+            <StringItem index="142" value="MORERA"/>
+            <StringItem index="143" value="NABO"/>
+            <StringItem index="144" value="NARANJA"/>
+            <StringItem index="145" value="NISPERO"/>
+            <StringItem index="146" value="NONI"/>
+            <StringItem index="147" value="&#xd1;AME"/>
+            <StringItem index="148" value="OREGANO"/>
+            <StringItem index="149" value="ORELLANA"/>
+            <StringItem index="150" value="ORQUIDEA"/>
+            <StringItem index="151" value="PALMA AMARGA"/>
+            <StringItem index="152" value="PALMA DE ACEITE"/>
+            <StringItem index="153" value="PAPAYA"/>
+            <StringItem index="154" value="PALMA ROBELINA"/>
+            <StringItem index="155" value="PALMITO"/>
+            <StringItem index="156" value="PAPA"/>
+            <StringItem index="157" value="PAPAYUELA"/>
+            <StringItem index="158" value="PATILLA"/>
+            <StringItem index="159" value="PEPA DE PAN"/>
+            <StringItem index="160" value="PEPINO COHOMBRO"/>
+            <StringItem index="161" value="PERA"/>
+            <StringItem index="162" value="PEPINO GUISO"/>
+            <StringItem index="163" value="PEREJIL"/>
+            <StringItem index="164" value="PIMENTON"/>
+            <StringItem index="165" value="PI&#xd1;A"/>
+            <StringItem index="166" value="PIMIENTA"/>
+            <StringItem index="167" value="PITAHAYA"/>
+            <StringItem index="168" value="QUINUA"/>
+            <StringItem index="169" value="POLEO"/>
+            <StringItem index="170" value="POMARROSA"/>
+            <StringItem index="171" value="POMELO"/>
+            <StringItem index="172" value="CRISANTEMO"/>
+            <StringItem index="173" value="PROTEA"/>
+            <StringItem index="174" value="PUERRO"/>
+            <StringItem index="175" value="RABANO"/>
+            <StringItem index="176" value="RAMBUTAN"/>
+            <StringItem index="177" value="REMOLACHA"/>
+            <StringItem index="178" value="REPOLLO"/>
+            <StringItem index="179" value="ROMERO"/>
+            <StringItem index="180" value="ROSA"/>
+            <StringItem index="181" value="RUBA"/>
+            <StringItem index="182" value="RUDA"/>
+            <StringItem index="183" value="RUSCUS"/>
+            <StringItem index="184" value="SABILA"/>
+            <StringItem index="185" value="SACHA INCHI"/>
+            <StringItem index="186" value="SOYA"/>
+            <StringItem index="187" value="STATICE"/>
+            <StringItem index="188" value="STEVIA"/>
+            <StringItem index="189" value="TABACO NEGRO"/>
+            <StringItem index="190" value="TABACO RUBIO"/>
+            <StringItem index="191" value="TRIGO"/>
+            <StringItem index="192" value="TAMARINDO"/>
+            <StringItem index="193" value="TANGELO"/>
+            <StringItem index="194" value="TE"/>
+            <StringItem index="195" value="TOMATE"/>
+            <StringItem index="196" value="TOMATE DE ARBOL"/>
+            <StringItem index="197" value="TOMILLO"/>
+            <StringItem index="198" value="TORONJA"/>
+            <StringItem index="199" value="TREE FERN"/>
+            <StringItem index="200" value="UCHUVA"/>
+            <StringItem index="201" value="ULLUCO"/>
+            <StringItem index="202" value="UMARI"/>
+            <StringItem index="203" value="UVA"/>
+            <StringItem index="204" value="UVA CAIMARONA"/>
+            <StringItem index="205" value="YACON"/>
+            <StringItem index="206" value="YUCA"/>
+            <StringItem index="207" value="ZANAHORIA"/>
+            <StringItem index="208" value="ZAPOTE"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="-1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Cultivo">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_subgrupo_cul">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="105">
+            <StringItem index="0" value="ACELGA"/>
+            <StringItem index="1" value="MALANGA"/>
+            <StringItem index="2" value="ACHIRA"/>
+            <StringItem index="3" value="AGUACATE"/>
+            <StringItem index="4" value="AJI"/>
+            <StringItem index="5" value="AHUYAMA"/>
+            <StringItem index="6" value="AJO"/>
+            <StringItem index="7" value="AJONJOLI"/>
+            <StringItem index="8" value="ALCACHOFA"/>
+            <StringItem index="9" value="ALFALFA"/>
+            <StringItem index="10" value="ALGARROBO"/>
+            <StringItem index="11" value="ALGODON"/>
+            <StringItem index="12" value="ANON"/>
+            <StringItem index="13" value="APIO"/>
+            <StringItem index="14" value="ARANDANO"/>
+            <StringItem index="15" value="ARRACACHA"/>
+            <StringItem index="16" value="ARROZ"/>
+            <StringItem index="17" value="ARVEJA"/>
+            <StringItem index="18" value="AVENA"/>
+            <StringItem index="19" value="BANANO"/>
+            <StringItem index="20" value="BATATA"/>
+            <StringItem index="21" value="BERENJENA"/>
+            <StringItem index="22" value="BROCOLI"/>
+            <StringItem index="23" value="CACAO"/>
+            <StringItem index="24" value="PLATANO"/>
+            <StringItem index="25" value="CAFE"/>
+            <StringItem index="26" value="CAUCHO"/>
+            <StringItem index="27" value="CALABACIN"/>
+            <StringItem index="28" value="CALABAZA"/>
+            <StringItem index="29" value="CA&#xd1;A"/>
+            <StringItem index="30" value="CA&#xd1;A FLECHA"/>
+            <StringItem index="31" value="CEBADA"/>
+            <StringItem index="32" value="CEBOLLA"/>
+            <StringItem index="33" value="CENTENO"/>
+            <StringItem index="34" value="CHACHAFRUTO"/>
+            <StringItem index="35" value="CHAMPI&#xd1;ON"/>
+            <StringItem index="36" value="CHONQUE"/>
+            <StringItem index="37" value="COCO"/>
+            <StringItem index="38" value="COL"/>
+            <StringItem index="39" value="CURUBA"/>
+            <StringItem index="40" value="ESPARRAGO"/>
+            <StringItem index="41" value="ESPARTO"/>
+            <StringItem index="42" value="ESPINACA"/>
+            <StringItem index="43" value="ESTROPAJO"/>
+            <StringItem index="44" value="FEIJOA"/>
+            <StringItem index="45" value="FIQUE"/>
+            <StringItem index="46" value="FRAMBUESA"/>
+            <StringItem index="47" value="FRESA"/>
+            <StringItem index="48" value="FRIJOL"/>
+            <StringItem index="49" value="GARBANZO"/>
+            <StringItem index="50" value="GRANADILLA"/>
+            <StringItem index="51" value="GUANABANA"/>
+            <StringItem index="52" value="GUANDUL"/>
+            <StringItem index="53" value="GUATILA"/>
+            <StringItem index="54" value="GUAYABA"/>
+            <StringItem index="55" value="HABA"/>
+            <StringItem index="56" value="HABICHUELA"/>
+            <StringItem index="57" value="IRACA"/>
+            <StringItem index="58" value="HIGUERILLA"/>
+            <StringItem index="59" value="JATROPHA"/>
+            <StringItem index="60" value="LECHUGA"/>
+            <StringItem index="61" value="LENTEJA"/>
+            <StringItem index="62" value="LULO"/>
+            <StringItem index="63" value="MAIZ FORRAJERO"/>
+            <StringItem index="64" value="MAIZ"/>
+            <StringItem index="65" value="MAMEY"/>
+            <StringItem index="66" value="MANGO"/>
+            <StringItem index="67" value="MANI"/>
+            <StringItem index="68" value="MARACUYA"/>
+            <StringItem index="69" value="MELON"/>
+            <StringItem index="70" value="SORGO"/>
+            <StringItem index="71" value="MIMBRE"/>
+            <StringItem index="72" value="MORA"/>
+            <StringItem index="73" value="MORERA"/>
+            <StringItem index="74" value="NABO"/>
+            <StringItem index="75" value="NONI"/>
+            <StringItem index="76" value="&#xd1;AME"/>
+            <StringItem index="77" value="ORELLANA"/>
+            <StringItem index="78" value="PALMA AMARGA"/>
+            <StringItem index="79" value="PALMA DE ACEITE"/>
+            <StringItem index="80" value="PAPAYA"/>
+            <StringItem index="81" value="PALMITO"/>
+            <StringItem index="82" value="PAPA"/>
+            <StringItem index="83" value="PATILLA"/>
+            <StringItem index="84" value="PEPINO"/>
+            <StringItem index="85" value="PIMENTON"/>
+            <StringItem index="86" value="PI&#xd1;A"/>
+            <StringItem index="87" value="QUINUA"/>
+            <StringItem index="88" value="PUERRO"/>
+            <StringItem index="89" value="RABANO"/>
+            <StringItem index="90" value="RAMBUTAN"/>
+            <StringItem index="91" value="REMOLACHA"/>
+            <StringItem index="92" value="REPOLLO"/>
+            <StringItem index="93" value="ULLUCO"/>
+            <StringItem index="94" value="SACHA INCHI"/>
+            <StringItem index="95" value="SOYA"/>
+            <StringItem index="96" value="TABACO"/>
+            <StringItem index="97" value="TRIGO"/>
+            <StringItem index="98" value="TOMATE"/>
+            <StringItem index="99" value="TOMATE DE ARBOL"/>
+            <StringItem index="100" value="UVA"/>
+            <StringItem index="101" value="YACON"/>
+            <StringItem index="102" value="YUCA"/>
+            <StringItem index="103" value="ZANAHORIA"/>
+            <StringItem index="104" value="ZAPOTE"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="-1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Subgrupo de cultivo">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_sis_productivo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="159">
+            <StringItem index="0" value="ACELGA"/>
+            <StringItem index="1" value="ACHICORIA"/>
+            <StringItem index="2" value="ACHIN"/>
+            <StringItem index="3" value="ACHIOTE (BIJA)"/>
+            <StringItem index="4" value="ACHIRA"/>
+            <StringItem index="5" value="AGRAZ"/>
+            <StringItem index="6" value="AGUACATE"/>
+            <StringItem index="7" value="AJI"/>
+            <StringItem index="8" value="AGUAJE"/>
+            <StringItem index="9" value="AHUYAMA"/>
+            <StringItem index="10" value="AJI DULCE"/>
+            <StringItem index="11" value="AJI TABASCO"/>
+            <StringItem index="12" value="AJO"/>
+            <StringItem index="13" value="AJONJOLI"/>
+            <StringItem index="14" value="ALBAHACA"/>
+            <StringItem index="15" value="ALCACHOFA"/>
+            <StringItem index="16" value="ALFALFA"/>
+            <StringItem index="17" value="ALGARROBO"/>
+            <StringItem index="18" value="ALGODON"/>
+            <StringItem index="19" value="AMARANTO"/>
+            <StringItem index="20" value="ANIS"/>
+            <StringItem index="21" value="ANON"/>
+            <StringItem index="22" value="ANTURIO"/>
+            <StringItem index="23" value="APIO"/>
+            <StringItem index="24" value="ARANDANO"/>
+            <StringItem index="25" value="ARAZA"/>
+            <StringItem index="26" value="ARRACACHA"/>
+            <StringItem index="27" value="ARROZ RIEGO"/>
+            <StringItem index="28" value="ARROZ SECANO MANUAL"/>
+            <StringItem index="29" value="ARROZ SECANO MECANIZADO"/>
+            <StringItem index="30" value="ARVEJA"/>
+            <StringItem index="31" value="ASAI"/>
+            <StringItem index="32" value="ASPARRAGUS"/>
+            <StringItem index="33" value="ASTROMELIA"/>
+            <StringItem index="34" value="AVENA"/>
+            <StringItem index="35" value="BADEA"/>
+            <StringItem index="36" value="BANANITO"/>
+            <StringItem index="37" value="BANANO"/>
+            <StringItem index="38" value="BANANO EXPORTACION"/>
+            <StringItem index="39" value="BANANO MANZANO"/>
+            <StringItem index="40" value="BATATA"/>
+            <StringItem index="41" value="BERENJENA"/>
+            <StringItem index="42" value="BREVO"/>
+            <StringItem index="43" value="BOROJO"/>
+            <StringItem index="44" value="BROCOLI"/>
+            <StringItem index="45" value="CACAO"/>
+            <StringItem index="46" value="CACHACO"/>
+            <StringItem index="47" value="CAFE"/>
+            <StringItem index="48" value="CAUCHO"/>
+            <StringItem index="49" value="CAIMO"/>
+            <StringItem index="50" value="CALABACIN"/>
+            <StringItem index="51" value="CALABAZA"/>
+            <StringItem index="52" value="CALENDULA"/>
+            <StringItem index="53" value="CA&#xd1;A AZUCARERA"/>
+            <StringItem index="54" value="CA&#xd1;A FLECHA"/>
+            <StringItem index="55" value="CA&#xd1;A MIEL"/>
+            <StringItem index="56" value="CA&#xd1;A PANELERA"/>
+            <StringItem index="57" value="CARDAMOMO"/>
+            <StringItem index="58" value="CARTUCHO-ASTROMELIA"/>
+            <StringItem index="59" value="CEBADA"/>
+            <StringItem index="60" value="CEBOLLA DE BULBO"/>
+            <StringItem index="61" value="CENTENO"/>
+            <StringItem index="62" value="CHIRO"/>
+            <StringItem index="63" value="CEBOLLA DE RAMA"/>
+            <StringItem index="64" value="CEBOLLIN"/>
+            <StringItem index="65" value="CHACHAFRUTO"/>
+            <StringItem index="66" value="CHAMBA"/>
+            <StringItem index="67" value="CHAMPI&#xd1;ON"/>
+            <StringItem index="68" value="CHIA"/>
+            <StringItem index="69" value="CHILLANGUA"/>
+            <StringItem index="70" value="CHIRARAN"/>
+            <StringItem index="71" value="CHIRIMOYA"/>
+            <StringItem index="72" value="CHOLUPA"/>
+            <StringItem index="73" value="CIRUELA"/>
+            <StringItem index="74" value="CHONQUE"/>
+            <StringItem index="75" value="CHONTADURO"/>
+            <StringItem index="76" value="CITRICOS"/>
+            <StringItem index="77" value="CILANTRO"/>
+            <StringItem index="78" value="CIMARRON"/>
+            <StringItem index="79" value="CLAVEL"/>
+            <StringItem index="80" value="COCCULUS"/>
+            <StringItem index="81" value="COCO"/>
+            <StringItem index="82" value="COCONA"/>
+            <StringItem index="83" value="COL"/>
+            <StringItem index="84" value="CURUBA"/>
+            <StringItem index="85" value="COLIFLOR"/>
+            <StringItem index="86" value="COPOAZU"/>
+            <StringItem index="87" value="CORDELINE CINTA"/>
+            <StringItem index="88" value="COROZO"/>
+            <StringItem index="89" value="CURCUMA"/>
+            <StringItem index="90" value="DATIL"/>
+            <StringItem index="91" value="DURAZNO"/>
+            <StringItem index="92" value="ENELDO"/>
+            <StringItem index="93" value="ESPARRAGO"/>
+            <StringItem index="94" value="ESPARTO"/>
+            <StringItem index="95" value="ESPINACA"/>
+            <StringItem index="96" value="ESTROPAJO"/>
+            <StringItem index="97" value="EUCALIPTO BABY BLUE"/>
+            <StringItem index="98" value="FEIJOA"/>
+            <StringItem index="99" value="FIQUE"/>
+            <StringItem index="100" value="FITOSPORUM"/>
+            <StringItem index="101" value="FLOR DE JAMAICA"/>
+            <StringItem index="102" value="FLOR DE SAFARI"/>
+            <StringItem index="103" value="FRAMBUESA"/>
+            <StringItem index="104" value="FRESA"/>
+            <StringItem index="105" value="FRIJOL"/>
+            <StringItem index="106" value="FRIJOL ARBUSTIVO"/>
+            <StringItem index="107" value="GARBANZO"/>
+            <StringItem index="108" value="FRIJOL LADERA"/>
+            <StringItem index="109" value="FRIJOL PLANA"/>
+            <StringItem index="110" value="FRIJOL VOLUBLE"/>
+            <StringItem index="111" value="GIRASOL"/>
+            <StringItem index="112" value="GLADIOLO"/>
+            <StringItem index="113" value="GRANADILLA"/>
+            <StringItem index="114" value="GUAMA"/>
+            <StringItem index="115" value="GUANABANA"/>
+            <StringItem index="116" value="GUANDUL"/>
+            <StringItem index="117" value="GUATILA"/>
+            <StringItem index="118" value="GUAYABA"/>
+            <StringItem index="119" value="GUAYABA MANZANA"/>
+            <StringItem index="120" value="GUAYABA PERA"/>
+            <StringItem index="121" value="GULUPA"/>
+            <StringItem index="122" value="HABA"/>
+            <StringItem index="123" value="HABICHUELA"/>
+            <StringItem index="124" value="IRACA"/>
+            <StringItem index="125" value="HELECHO"/>
+            <StringItem index="126" value="HELECHO CUERO"/>
+            <StringItem index="127" value="HELICONIA"/>
+            <StringItem index="128" value="HIERBABUENA"/>
+            <StringItem index="129" value="HIGO"/>
+            <StringItem index="130" value="HIGUERILLA"/>
+            <StringItem index="131" value="HORTENSIA"/>
+            <StringItem index="132" value="JATROPHA"/>
+            <StringItem index="133" value="JENGIBRE"/>
+            <StringItem index="134" value="LECHUGA"/>
+            <StringItem index="135" value="LENTEJA"/>
+            <StringItem index="136" value="LIMA"/>
+            <StringItem index="137" value="LIMA TAHITI"/>
+            <StringItem index="138" value="LIMON"/>
+            <StringItem index="139" value="LIMON MANDARINO"/>
+            <StringItem index="140" value="LIMON PAJARITO"/>
+            <StringItem index="141" value="LIMON TAHITI"/>
+            <StringItem index="142" value="LIMONARIA"/>
+            <StringItem index="143" value="LIMONIUM"/>
+            <StringItem index="144" value="LULO"/>
+            <StringItem index="145" value="MACADAMIA"/>
+            <StringItem index="146" value="MAIZ FORRAJERO"/>
+            <StringItem index="147" value="MAIZ TECNIFICADO"/>
+            <StringItem index="148" value="MAIZ TRADICIONAL"/>
+            <StringItem index="149" value="MANDARINA"/>
+            <StringItem index="150" value="MALANGA"/>
+            <StringItem index="151" value="MAMEY"/>
+            <StringItem index="152" value="MAMONCILLO"/>
+            <StringItem index="153" value="MANGO"/>
+            <StringItem index="154" value="MANDARINA CLEMENTINA"/>
+            <StringItem index="155" value="MANDARINA ONECO"/>
+            <StringItem index="156" value="MANGO INJERTO"/>
+            <StringItem index="157" value="MANGOSTINO"/>
+            <StringItem index="158" value="MANI"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="-1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Sistema productivo">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_estado_fisico">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="23">
+            <StringItem index="0" value="FRUTO FRESCO"/>
+            <StringItem index="1" value="HOJA FRESCA"/>
+            <StringItem index="2" value="TUBERCULO FRESCO"/>
+            <StringItem index="3" value="HORTALIZA FRESCA"/>
+            <StringItem index="4" value="GRANO SECO"/>
+            <StringItem index="5" value="SEMILLA"/>
+            <StringItem index="6" value="SEMILLA SECA"/>
+            <StringItem index="7" value="FLOR FRESCA"/>
+            <StringItem index="8" value="PADDY VERDE"/>
+            <StringItem index="9" value="FOLLAJE FRESCO"/>
+            <StringItem index="10" value="CAFE VERDE EQUIVALENTE"/>
+            <StringItem index="11" value="LATEX SECO"/>
+            <StringItem index="12" value="CA&#xd1;A PARA MOLIENDA"/>
+            <StringItem index="13" value="FIBRA SECA"/>
+            <StringItem index="14" value="MELAZA"/>
+            <StringItem index="15" value="PANELA"/>
+            <StringItem index="16" value="HONGO FRESCO"/>
+            <StringItem index="17" value="LEGUMINOSA FRESCA"/>
+            <StringItem index="18" value="SEMILLA OLEAGINOSA"/>
+            <StringItem index="19" value="FORRAJE FRESCO"/>
+            <StringItem index="20" value="ACEITE CRUDO"/>
+            <StringItem index="21" value="ND"/>
+            <StringItem index="22" value="HOJA SECA"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="-1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Estado fisico">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_cientifico">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="119">
+            <StringItem index="0" value="BETA VULGARIS"/>
+            <StringItem index="1" value="CICHORIUM INTYBUS"/>
+            <StringItem index="2" value="COLOCASIA ESCULENTA"/>
+            <StringItem index="3" value="BIXA ORELLANA"/>
+            <StringItem index="4" value="CANNA EDULIS"/>
+            <StringItem index="5" value="VACCINIUM MERIDIONALE"/>
+            <StringItem index="6" value="PERSEA AMERICANA MILL."/>
+            <StringItem index="7" value="CAPSICUM ANNUM"/>
+            <StringItem index="8" value="MAURITIA FLEXUOSA"/>
+            <StringItem index="9" value="CUCURBITA MOSHATA"/>
+            <StringItem index="10" value="ALLIUM SATIVUM"/>
+            <StringItem index="11" value="SESAMUN INDICUM"/>
+            <StringItem index="12" value="OCIMUM BASILICUM"/>
+            <StringItem index="13" value="CYNARA SCOLMUS"/>
+            <StringItem index="14" value="MEDICAGO SATIVA"/>
+            <StringItem index="15" value="HYMENAEA COURBARIL"/>
+            <StringItem index="16" value="GOSSYPIUM HIRSTIUM"/>
+            <StringItem index="17" value="AMARANTHUS CAUDATUS L."/>
+            <StringItem index="18" value="PIMPINELLA ANISUM"/>
+            <StringItem index="19" value="ANNONA SQUAMOSA"/>
+            <StringItem index="20" value="ANTHURIUM ANDREANUM"/>
+            <StringItem index="21" value="APIUM GRAVEOLENS"/>
+            <StringItem index="22" value="VACCINIUM CORYMBOSUM"/>
+            <StringItem index="23" value="EUGENIA STIPITATA"/>
+            <StringItem index="24" value="ARRACACIA XANTHORRHIZA"/>
+            <StringItem index="25" value="ORYZA SATIVA"/>
+            <StringItem index="26" value="PISUM SATIVUM"/>
+            <StringItem index="27" value="EUTERPE OLERACEA"/>
+            <StringItem index="28" value="ASPARAGUS DENSIFLORUS"/>
+            <StringItem index="29" value="ALSTROEMERIA AURANTIACA"/>
+            <StringItem index="30" value="AVENA SATIVA"/>
+            <StringItem index="31" value="PASSIFLORA QUADRANGULARIS"/>
+            <StringItem index="32" value="MUSA ACUMINATA"/>
+            <StringItem index="33" value="MUSA PARADISIACA"/>
+            <StringItem index="34" value="IPOMOEA BATATAS"/>
+            <StringItem index="35" value="SOLANUM MELONGENA"/>
+            <StringItem index="36" value="FICUS CARICA"/>
+            <StringItem index="37" value="BOROJOA PATINOI CUATREC"/>
+            <StringItem index="38" value="BRASSICA OLERACEAE"/>
+            <StringItem index="39" value="THEOBROMA CACAO"/>
+            <StringItem index="40" value="MUSA SPP."/>
+            <StringItem index="41" value="COFFEA ARABICA"/>
+            <StringItem index="42" value="HEVEA BRAZILIENSIS"/>
+            <StringItem index="43" value="CHRYSOPHYLLUM CAINITO"/>
+            <StringItem index="44" value="CUCURBITA PEPO"/>
+            <StringItem index="45" value="CUCURBITA MAXIMA"/>
+            <StringItem index="46" value="CALENDULA OFFICINALIS"/>
+            <StringItem index="47" value="SACCHARUM OFFICINARUM"/>
+            <StringItem index="48" value="GYNERIUM SAGITATUM"/>
+            <StringItem index="49" value="ELETTARIA CARDAMOMUM"/>
+            <StringItem index="50" value="ZANTEDESCHIA AETHIOPICA-ALSTROEMERIA AURANTIACA"/>
+            <StringItem index="51" value="HORDEUM DISTICHON"/>
+            <StringItem index="52" value="ALLIUM CEPA"/>
+            <StringItem index="53" value="SECALE CEREALE"/>
+            <StringItem index="54" value="ALLIUM FISTULOSUM"/>
+            <StringItem index="55" value="ERYTHRINA EDULIS"/>
+            <StringItem index="56" value="CAMPOMANESIA LINEATIFOLIA"/>
+            <StringItem index="57" value="AGARICUS BISPORUS"/>
+            <StringItem index="58" value="SALVIA HISPANICA L."/>
+            <StringItem index="59" value="ERYNGIUM FOETIDUM"/>
+            <StringItem index="60" value="ANONA CHERIMOLA MILL"/>
+            <StringItem index="61" value="PASSIFLORA ALIFORMIS"/>
+            <StringItem index="62" value="PRUNUS DOMESTICA"/>
+            <StringItem index="63" value="XANTHOSOMA SAGITTIFOLIUM"/>
+            <StringItem index="64" value="BACTRIS GASIPAES (HBK)"/>
+            <StringItem index="65" value="CITRUS SPP."/>
+            <StringItem index="66" value="CORIANDRUM SATIVUM"/>
+            <StringItem index="67" value="DIANTHUS CARYOPHYLLUS"/>
+            <StringItem index="68" value="ANAMIRTA COCCULUS"/>
+            <StringItem index="69" value="COCOS NUCIFERA"/>
+            <StringItem index="70" value="SOLANUM SESSILIFLORUM DUNAL"/>
+            <StringItem index="71" value="BRASSICA OLERACEA VAR. ACEPHALA"/>
+            <StringItem index="72" value="PASSIFLORA TARMINIANA"/>
+            <StringItem index="73" value="BRASSICA OLERACEA VAR. BOTRYTIS"/>
+            <StringItem index="74" value="THEOBROMA GRANDIFLORUM (WILLD. EX SPRENG)"/>
+            <StringItem index="75" value="CORDYLINE RUBRA HUGEL"/>
+            <StringItem index="76" value="BACTRIS GUINEENSIS"/>
+            <StringItem index="77" value="CURCUMA LONGA"/>
+            <StringItem index="78" value="PHOENIX DACTYLIFERA"/>
+            <StringItem index="79" value="PRUNUS PERSICA"/>
+            <StringItem index="80" value="ANTHUM GRAVEOLENS"/>
+            <StringItem index="81" value="ASPARAGUS OFFICINALIS"/>
+            <StringItem index="82" value="STIPA TENACISSIMA"/>
+            <StringItem index="83" value="SPINACIA OLERACEA"/>
+            <StringItem index="84" value="LUFFA CILINFRICA"/>
+            <StringItem index="85" value="EUCALYPTUS PULVURULENTO SIMS"/>
+            <StringItem index="86" value="FEIJOA SELLOWIANA"/>
+            <StringItem index="87" value="FURCRAEA BEDINGHAUSII"/>
+            <StringItem index="88" value="FITOSPORUM"/>
+            <StringItem index="89" value="HIBISCUS SABDARIFFA"/>
+            <StringItem index="90" value="LEUCADENDRON"/>
+            <StringItem index="91" value="RUBUS IDAEUS"/>
+            <StringItem index="92" value="FRAGARIA VESCA"/>
+            <StringItem index="93" value="PHASEOLUS VULGARIS"/>
+            <StringItem index="94" value="CICER ARIETINUM"/>
+            <StringItem index="95" value="HELIANTHUS ANNUUS"/>
+            <StringItem index="96" value="GLADIOLUS SPP."/>
+            <StringItem index="97" value="PASSIFLORA LIGULARIS"/>
+            <StringItem index="98" value="INGA EDULIS MART"/>
+            <StringItem index="99" value="ANNONA MURICATA"/>
+            <StringItem index="100" value="CAJANUS CAJAN"/>
+            <StringItem index="101" value="SECHIUM EDULE"/>
+            <StringItem index="102" value="PSIDIUM GUAJAVA"/>
+            <StringItem index="103" value="PASSIFLORA EDULIS SIMS"/>
+            <StringItem index="104" value="VICIA FABA"/>
+            <StringItem index="105" value="JUDIAPHASEOLUS VULGARIS"/>
+            <StringItem index="106" value="CARLUDOVICA PALMATA"/>
+            <StringItem index="107" value="PTERIDIUM AQUILANUM"/>
+            <StringItem index="108" value="RUMHORA ADIANTIFORMIS"/>
+            <StringItem index="109" value="HELICONIA BIHAI"/>
+            <StringItem index="110" value="MENTHA SPICATA"/>
+            <StringItem index="111" value="OPUNTIA FICUS INDICA LIMILL"/>
+            <StringItem index="112" value="RICINUS COMMUNIS"/>
+            <StringItem index="113" value="HYDRANGEA MACROPHYLLA"/>
+            <StringItem index="114" value="JATROPHA CURCAS"/>
+            <StringItem index="115" value="ZINGIBER OFFICINALE"/>
+            <StringItem index="116" value="LACTUCA SATIVA"/>
+            <StringItem index="117" value="LENS CULINARIS"/>
+            <StringItem index="118" value="CIT"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="-1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Nombre cientifico">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbx_ciclo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="TRANSITORIO"/>
+            <StringItem index="1" value="ANUAL"/>
+            <StringItem index="2" value="PERMANENTE"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="-1"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Ciclo cultivo">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_area_sem">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#xc1;rea sembrada">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_area_coc">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#xc1;rea cocechada">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_produccion">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Producci&#xf3;n">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_rendimiento">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Rendimiento">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_send">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="33" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Send"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Hand Cursor"/>
+        </Property>
+        <Property name="focusPainted" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_cod_mun">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Cod. Municipio">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_periodo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="0"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Periodo">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0"/>
+              </Border>
+              <Color PropertyName="color" blue="99" green="99" red="99" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
